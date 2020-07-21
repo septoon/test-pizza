@@ -1,0 +1,1651 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Pizza Delivery</title>
+</head>
+<body>
+  <header class="header">
+  
+    <div class="container">
+      <div class="navbar">
+        <img src="/img/logo.png" alt="logo" class="logo">
+        <div class="contacts">
+          <span>Наш адрес: ул. Ленина 1</span> </br>
+          <span>Наш телефон: <a href="tel: +79785068725" class="num">+7 (978) 506-87-25</a></span>
+        </div>
+      </div>
+    </div>
+  
+  </header>
+
+  <div class="container">
+
+    <h1 class="heading">Заказать пиццу <span>/ бесплатная доставка</span></h1>
+
+    <div class="table">
+
+      <div class="table_item" id="table_1">
+        <div class="image">
+          <img class="img" src="/img/bbq_new.jpg" alt="bbq_new">
+        </div>
+        <div class="name_holder">
+          <span class="name">Барбекю New</span>
+        </div>
+        <div class="descr">
+          <span class="description">Аппетитная пицца на классическом тонком итальянском тесте с ветчиной, пепперони, курицей, беконом, моцареллой, рукколой и соусом барбекю </span>
+        </div>
+      <div class="select">
+        <label for="" style="font-size: 13px;">Ингредиенты:</label>
+        <button type="button" class="btn"><span style="color: goldenrod;">+</span> Добавить</button>
+      </div>
+      <!-- /.select -->
+      <div class="size">
+        <div class="size_item size_item_active">Ø 30 см</div>
+        <div class="size_item">Ø 40 см</div>
+        <div class="size_item">Ø 50 см</div>
+      </div>
+      <!-- /.size -->
+      <div class="price_holder">
+        <span class="price pr_inp"><input type="text" value='300' class="price_input" readonly style="border: none;">руб.</span>
+        <button class="btn_order">Заказать</button>
+      </div>
+      <!-- /.price_holder -->
+
+      <div class="ings"">          
+        <div class="ings_heading">
+          <h3 style="text-align: left; margin-bottom: 8px;">Ингредиенты:</h3>
+          <img src="./img/close.png" alt="close" class="close_btn">
+        </div>
+        <table>
+          <tbody>
+            <tr class="notforfree">
+              <td class="tpngTd1">Сыр</td>
+              <td class="tpngTd2">35р</td>
+              <td class="tpngTd3">
+                <img class="ings_btn minus" src="./img/minus.png"/>
+                <input type="text" value='0' class="input" readonly style="border: none;">
+                <img class="ings_btn plus" src="./img/plus.png"/>
+              </td>
+            </tr>
+            <tr class="notforfree">
+              <td class="tpngTd1">Помидор</td>
+              <td class="tpngTd2">35р</td>
+              <td class="tpngTd3">
+                <img class="ings_btn minus" src="./img/minus.png"/>
+                <input type="text" value='0' class="input" readonly style="border: none;">
+                <img class="ings_btn plus" src="./img/plus.png"/>
+              </td>
+            </tr>
+            <tr class="notforfree">
+              <td class="tpngTd1">Маслины</td>
+              <td class="tpngTd2">35р</td>
+              <td class="tpngTd3">
+                <img class="ings_btn minus" src="./img/minus.png"/>
+                <input type="text" value='0' class="input" readonly style="border: none;">
+                <img class="ings_btn plus" src="./img/plus.png"/>
+              </td>
+            </tr>
+            <tr class="notforfree">
+              <td class="tpngTd1">Кукуруза</td>
+              <td class="tpngTd2">35р</td>
+              <td class="tpngTd3">
+                <img class="ings_btn minus" src="./img/minus.png"/>
+                <input type="text" value='0' class="input" readonly style="border: none;">
+                <img class="ings_btn plus" src="./img/plus.png"/>
+              </td>
+            </tr>
+            <tr class="notforfree">
+              <td class="tpngTd1">Грибы</td>
+              <td class="tpngTd2">35р</td>
+              <td class="tpngTd3">
+                <img class="ings_btn minus" src="./img/minus.png"/>
+                <input type="text" value='0' class="input" readonly style="border: none;">
+                <img class="ings_btn plus" src="./img/plus.png"/>
+              </td>
+            </tr>
+            <tr class="notforfree">
+              <td class="tpngTd1">Бекон</td>
+              <td class="tpngTd2">35р</td>
+              <td class="tpngTd3">
+                <img class="ings_btn minus" src="./img/minus.png"/>
+                <input type="text" value='0' class="input" readonly style="border: none;">
+                <img class="ings_btn plus" src="./img/plus.png"/>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      </div>
+
+      <div class="table_item" id="table_2">
+        <div class="image">
+          <img class="img" src="/img/ceasar.jpg" alt="ceasar">
+        </div>
+        <div class="name_holder">
+          <span class="name">Цезарь</span>
+        </div>
+        <div class="descr">
+          <span class="description">Легкая пицца на классическом тонком итальянском тесте с кусочками куриного филе, томатами черри, моцареллой, пшеничными гренками, салатом айсберг и пармезаном</span>
+        </div>
+        <div class="select">
+          <label for="" style="font-size: 13px;">Ингредиенты:</label>
+          <button type="button" class="btn"><span style="color: goldenrod;">+</span> Добавить</button>
+        </div>
+        <!-- /.select -->
+        <div class="size">
+          <div class="size_item size_item_active">Ø 30 см</div>
+          <div class="size_item">Ø 40 см</div>
+          <div class="size_item">Ø 50 см</div>
+        </div>
+        <!-- /.size -->
+        <div class="price_holder">
+          <span class="price pr_inp"><input type="text" value='300' class="price_input" readonly style="border: none;">руб.</span>
+          <button class="btn_order">Заказать</button>
+        </div>
+        <!-- /.price_holder -->
+        <div class="ings"">
+          
+        <div class="ings_heading">
+          <h3 style="text-align: left; margin-bottom: 8px;">Ингредиенты:</h3>
+          <img src="./img/close.png" alt="close" class="close_btn">
+        </div>
+          <table>
+            <tbody>
+              <tr class="notforfree">
+                <td class="tpngTd1">Сыр</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Помидор</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Маслины</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Кукуруза</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Грибы</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Бекон</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      
+      <div class="table_item" id="table_3">
+        <div class="image">
+          <img class="img" src="/img/cheesburger.jpg" alt="cheesburger">
+        </div>
+        <div class="name_holder">
+          <span class="name">Чизбургер</span>
+        </div>
+        <div class="descr">
+          <span class="description">Сочная пицца с мясным соусом Болоньезе, помидорами, маринованными огурчиками, сыром моцарелла и пряным сыром чеддер</span>
+        </div>
+        <div class="select">
+          <label for="" style="font-size: 13px;">Ингредиенты:</label>
+          <button type="button" class="btn"><span style="color: goldenrod;">+</span> Добавить</button>
+        </div>
+        <!-- /.select -->
+        <div class="size">
+          <div class="size_item size_item_active">Ø 30 см</div>
+          <div class="size_item">Ø 40 см</div>
+          <div class="size_item">Ø 50 см</div>
+        </div>
+        <!-- /.size -->
+        <div class="price_holder">
+          <span class="price pr_inp"><input type="text" value='300' class="price_input" readonly style="border: none;">руб.</span>
+          <button class="btn_order">Заказать</button>
+        </div>
+        <!-- /.price_holder -->
+        <div class="ings"">
+          
+        <div class="ings_heading">
+          <h3 style="text-align: left; margin-bottom: 8px;">Ингредиенты:</h3>
+          <img src="./img/close.png" alt="close" class="close_btn">
+        </div>
+          <table>
+            <tbody>
+              <tr class="notforfree">
+                <td class="tpngTd1">Сыр</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Помидор</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Маслины</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Кукуруза</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Грибы</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Бекон</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      
+      <div class="table_item" id="table_4">
+        <div class="image">
+          <img class="img" src="/img/clasic.jpg" alt="clasic">
+        </div>
+        <div class="name_holder">
+          <span class="name">Класика</span>
+        </div>
+        <div class="descr">
+          <span class="description">Сытная пицца с пепперони, ветчиной, шампиньонами, моцареллой, пармезаном и томатным соусом на классическом тонком итальянском или традиционном тесте</span>
+        </div>
+        <div class="select">
+          <label for="" style="font-size: 13px;">Ингредиенты:</label>
+          <button type="button" class="btn"><span style="color: goldenrod;">+</span> Добавить</button>
+        </div>
+        <!-- /.select -->
+        <div class="size">
+          <div class="size_item size_item_active">Ø 30 см</div>
+          <div class="size_item">Ø 40 см</div>
+          <div class="size_item">Ø 50 см</div>
+        </div>
+        <!-- /.size -->
+        <div class="price_holder">
+          <span class="price pr_inp"><input type="text" value='300' class="price_input" readonly style="border: none;">руб.</span>
+          <button class="btn_order">Заказать</button>
+        </div>
+        <!-- /.price_holder -->
+        <div class="ings"">
+          
+        <div class="ings_heading">
+          <h3 style="text-align: left; margin-bottom: 8px;">Ингредиенты:</h3>
+          <img src="./img/close.png" alt="close" class="close_btn">
+        </div>
+          <table>
+            <tbody>
+              <tr class="notforfree">
+                <td class="tpngTd1">Сыр</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Помидор</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Маслины</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Кукуруза</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Грибы</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Бекон</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      
+      <div class="table_item" id="table_5">
+        <div class="image">
+          <img class="img" src="/img/diablo.jpg" alt="diablo">
+        </div>
+        <div class="name_holder">
+          <span class="name">Дьябло</span>
+        </div>
+        <div class="descr">
+          <span class="description">Жгучая пицца с халапеньо, пепперони, кусочками свинины, беконом, шампиньонами, красным луком, томатами, моцареллой, заправленная пикантным соусом кимчи</span>
+        </div>
+        <div class="select">
+          <label for="" style="font-size: 13px;">Ингредиенты:</label>
+          <button type="button" class="btn"><span style="color: goldenrod;">+</span> Добавить</button>
+        </div>
+        <!-- /.select -->
+        <div class="size">
+          <div class="size_item size_item_active">Ø 30 см</div>
+          <div class="size_item">Ø 40 см</div>
+          <div class="size_item">Ø 50 см</div>
+        </div>
+        <!-- /.size -->
+        <div class="price_holder">
+          <span class="price pr_inp"><input type="text" value='300' class="price_input" readonly style="border: none;">руб.</span>
+          <button class="btn_order">Заказать</button>
+        </div>
+        <!-- /.price_holder -->
+        <div class="ings"">
+          
+        <div class="ings_heading">
+          <h3 style="text-align: left; margin-bottom: 8px;">Ингредиенты:</h3>
+          <img src="./img/close.png" alt="close" class="close_btn">
+        </div>
+          <table>
+            <tbody>
+              <tr class="notforfree">
+                <td class="tpngTd1">Сыр</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Помидор</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Маслины</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Кукуруза</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Грибы</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Бекон</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      
+      <div class="table_item" id="table_6">
+        <div class="image">
+          <img class="img" src="/img/domesticated.jpg" alt="domesticated">
+        </div>
+        <div class="name_holder">
+          <span class="name">Домашняя</span>
+        </div>
+        <div class="descr">
+          <span class="description">Оригинальная пицца с ветчиной, шампиньонами, томатами, моцареллой, фирменным томатным соусом и зеленью, на классическом тонком итальянском тесте</span>
+        </div>
+        <div class="select">
+          <label for="" style="font-size: 13px;">Ингредиенты:</label>
+          <button type="button" class="btn"><span style="color: goldenrod;">+</span> Добавить</button>
+        </div>
+        <!-- /.select -->
+        <div class="size">
+          <div class="size_item size_item_active">Ø 30 см</div>
+          <div class="size_item">Ø 40 см</div>
+          <div class="size_item">Ø 50 см</div>
+        </div>
+        <!-- /.size -->
+        <div class="price_holder">
+          <span class="price pr_inp"><input type="text" value='300' class="price_input" readonly style="border: none;">руб.</span>
+          <button class="btn_order">Заказать</button>
+        </div>
+        <!-- /.price_holder -->
+        <div class="ings"">
+          
+        <div class="ings_heading">
+          <h3 style="text-align: left; margin-bottom: 8px;">Ингредиенты:</h3>
+          <img src="./img/close.png" alt="close" class="close_btn">
+        </div>
+          <table>
+            <tbody>
+              <tr class="notforfree">
+                <td class="tpngTd1">Сыр</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Помидор</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Маслины</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Кукуруза</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Грибы</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Бекон</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      
+      <div class="table_item" id="table_7">
+        <div class="image">
+          <img class="img" src="/img/four_chees.jpg" alt="four_chees">
+        </div>
+        <div class="name_holder">
+          <span class="name">Четыре сыра</span>
+        </div>
+        <div class="descr">
+          <span class="description">Безупречная пицца с сырами дорблю, моцарелла, чеддер, эмменталь и фирменным томатным соусом на классическом тонком итальянском или пышном тесте</span>
+        </div>
+        <div class="select">
+          <label for="" style="font-size: 13px;">Ингредиенты:</label>
+          <button type="button" class="btn"><span style="color: goldenrod;">+</span> Добавить</button>
+        </div>
+        <!-- /.select -->
+        <div class="size">
+          <div class="size_item size_item_active">Ø 30 см</div>
+          <div class="size_item">Ø 40 см</div>
+          <div class="size_item">Ø 50 см</div>
+        </div>
+        <!-- /.size -->
+        <div class="price_holder">
+          <span class="price pr_inp"><input type="text" value='300' class="price_input" readonly style="border: none;">руб.</span>
+          <button class="btn_order">Заказать</button>
+        </div>
+        <!-- /.price_holder -->
+        <div class="ings"">
+          
+        <div class="ings_heading">
+          <h3 style="text-align: left; margin-bottom: 8px;">Ингредиенты:</h3>
+          <img src="./img/close.png" alt="close" class="close_btn">
+        </div>
+          <table>
+            <tbody>
+              <tr class="notforfree">
+                <td class="tpngTd1">Сыр</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Помидор</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Маслины</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Кукуруза</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Грибы</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Бекон</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="table_item" id="table_8">
+        <div class="image">
+          <img class="img" src="/img/juliet.jpg" alt="juliet">
+        </div>
+        <div class="name_holder">
+          <span class="name">Жульетта с курицей</span>
+        </div>
+        <div class="descr">
+          <span class="description">Сочная пицца с куриным филе под сливочным соусом, шампиньонами, моцареллой на классическом тонком итальянском тесте</span>
+        </div>
+        <div class="select">
+          <label for="" style="font-size: 13px;">Ингредиенты:</label>
+          <button type="button" class="btn"><span style="color: goldenrod;">+</span> Добавить</button>
+        </div>
+        <!-- /.select -->
+        <div class="size">
+          <div class="size_item size_item_active">Ø 30 см</div>
+          <div class="size_item">Ø 40 см</div>
+          <div class="size_item">Ø 50 см</div>
+        </div>
+        <!-- /.size -->
+        <div class="price_holder">
+          <span class="price pr_inp"><input type="text" value='300' class="price_input" readonly style="border: none;">руб.</span>
+          <button class="btn_order">Заказать</button>
+        </div>
+        <!-- /.price_holder -->
+        <div class="ings"">
+          
+        <div class="ings_heading">
+          <h3 style="text-align: left; margin-bottom: 8px;">Ингредиенты:</h3>
+          <img src="./img/close.png" alt="close" class="close_btn">
+        </div>
+          <table>
+            <tbody>
+              <tr class="notforfree">
+                <td class="tpngTd1">Сыр</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Помидор</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Маслины</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Кукуруза</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Грибы</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Бекон</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      
+      <div class="table_item" id="table_9">
+        <div class="image">
+          <img class="img" src="/img/kebab_new.jpg" alt="kebab_new">
+        </div>
+        <div class="name_holder">
+          <span class="name">Шашлычная New</span>
+        </div>
+        <div class="descr">
+          <span class="description">Оригинальная пицца с курицей, фирменным томатным соусом, Моцареллой, томатами, луком, укропом, кинзой и чесночно-соевым соусом на тесте</span>
+        </div>
+        <div class="select">
+          <label for="" style="font-size: 13px;">Ингредиенты:</label>
+          <button type="button" class="btn"><span style="color: goldenrod;">+</span> Добавить</button>
+        </div>
+        <!-- /.select -->
+        <div class="size">
+          <div class="size_item size_item_active">Ø 30 см</div>
+          <div class="size_item">Ø 40 см</div>
+          <div class="size_item">Ø 50 см</div>
+        </div>
+        <!-- /.size -->
+        <div class="price_holder">
+          <span class="price pr_inp"><input type="text" value='300' class="price_input" readonly style="border: none;">руб.</span>
+          <button class="btn_order">Заказать</button>
+        </div>
+        <!-- /.price_holder -->
+        <div class="ings"">
+          
+        <div class="ings_heading">
+          <h3 style="text-align: left; margin-bottom: 8px;">Ингредиенты:</h3>
+          <img src="./img/close.png" alt="close" class="close_btn">
+        </div>
+          
+          <table>
+            <tbody>
+              <tr class="notforfree">
+                <td class="tpngTd1">Сыр</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Помидор</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Маслины</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Кукуруза</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Грибы</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+              <tr class="notforfree">
+                <td class="tpngTd1">Бекон</td>
+                <td class="tpngTd2">35р</td>
+                <td class="tpngTd3">
+                  <img class="ings_btn minus" src="./img/minus.png"/>
+                  <input type="text" value='0' class="input" readonly style="border: none;">
+                  <img class="ings_btn plus" src="./img/plus.png"/>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      
+      <div class="table_item" id="table_10">
+        <div class="image">
+          <img class="img" src="/img/margarita.jpg" alt="margarita">
+        </div>
+        <div class="name_holder">
+          <span class="name">Маргарита</span>
+        </div>
+        <div class="descr">
+          <span class="description">Традиционная пицца с фирменным томатным соусом и моцареллой на классическом тонком итальянском или традиционном тесте</span>
+        </div>
+        <div class="select">
+          <label for="" style="font-size: 13px;">Ингредиенты:</label>
+          <button type="button" class="btn"><span style="color: goldenrod;">+</span> Добавить</button>
+        </div>
+        <!-- /.select -->
+        <div class="size">
+          <div class="size_item size_item_active">Ø 30 см</div>
+          <div class="size_item">Ø 40 см</div>
+          <div class="size_item">Ø 50 см</div>
+        </div>
+        <!-- /.size -->
+        <div class="price_holder">
+          <span class="price pr_inp"><input type="text" value='300' class="price_input" readonly style="border: none;">руб.</span>
+          <button class="btn_order">Заказать</button>
+        </div>
+        <!-- /.price_holder -->
+        <div class="ings"">
+          
+          <div class="ings_heading">
+            <h3 style="text-align: left; margin-bottom: 8px;">Ингредиенты:</h3>
+            <img src="./img/close.png" alt="close" class="close_btn">
+          </div>
+            <table>
+              <tbody>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Сыр</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Помидор</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Маслины</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Кукуруза</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Грибы</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Бекон</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+      </div>
+      
+      <div class="table_item" id="table_11">
+        <div class="image">
+          <img class="img" src="/img/meat_assorti.jpg" alt="meat_assorti">
+        </div>
+        <div class="name_holder">
+          <span class="name">Мясная асорти</span>
+        </div>
+        <div class="descr">
+          <span class="description">Мясная пицца с кусочками говядины, курицы, свинины, беконом, моцареллой, томатами, укропом и фирменным томатным соусом на классическом тонком итальянском тесте</span>
+        </div>
+        <div class="select">
+          <label for="" style="font-size: 13px;">Ингредиенты:</label>
+          <button type="button" class="btn"><span style="color: goldenrod;">+</span> Добавить</button>
+        </div>
+        <!-- /.select -->
+        <div class="size">
+          <div class="size_item size_item_active">Ø 30 см</div>
+          <div class="size_item">Ø 40 см</div>
+          <div class="size_item">Ø 50 см</div>
+        </div>
+        <!-- /.size -->
+        <div class="price_holder">
+          <span class="price pr_inp"><input type="text" value='300' class="price_input" readonly style="border: none;">руб.</span>
+          <button class="btn_order">Заказать</button>
+        </div>
+        <!-- /.price_holder -->
+      </div>
+      
+      <div class="table_item" id="table_12">
+        <div class="image">
+          <img class="img" src="/img/mega_peperoni.jpg" alt="mega_peperoni">
+        </div>
+        <div class="name_holder">
+          <span class="name">Мега пепперони</span>
+        </div>
+        <div class="descr">
+          <span class="description">Пикантная пицца с двойной порцией пепперони, моцареллой и фирменным томатным соусом на классическом тонком итальянском или традиционном тесте</span>
+        </div>
+        <div class="select">
+          <label for="" style="font-size: 13px;">Ингредиенты:</label>
+          <button type="button" class="btn"><span style="color: goldenrod;">+</span> Добавить</button>
+        </div>
+        <!-- /.select -->
+        <div class="size">
+          <div class="size_item size_item_active">Ø 30 см</div>
+          <div class="size_item">Ø 40 см</div>
+          <div class="size_item">Ø 50 см</div>
+        </div>
+        <!-- /.size -->
+        <div class="price_holder">
+          <span class="price pr_inp"><input type="text" value='300' class="price_input" readonly style="border: none;">руб.</span>
+          <button class="btn_order">Заказать</button>
+        </div>
+        <!-- /.price_holder -->
+        <div class="ings"">
+          
+          <div class="ings_heading">
+            <h3 style="text-align: left; margin-bottom: 8px;">Ингредиенты:</h3>
+            <img src="./img/close.png" alt="close" class="close_btn">
+          </div>
+            <table>
+              <tbody>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Сыр</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Помидор</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Маслины</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Кукуруза</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Грибы</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Бекон</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+      </div>
+      
+      <div class="table_item" id="table_13">
+        <div class="image">
+          <img class="img" src="/img/sea_empire.jpg" alt="sea_empire">
+        </div>
+        <div class="name_holder">
+          <span class="name">Морская империя</span>
+        </div>
+        <div class="descr">
+          <span class="description">Превосходная пицца на классическом тонком итальянском тесте со сметанным соусом с маринованными огурчиками и орегано, сыром моцарелла, тигровыми креветками</span>
+        </div>
+        <div class="select">
+          <label for="" style="font-size: 13px;">Ингредиенты:</label>
+          <button type="button" class="btn"><span style="color: goldenrod;">+</span> Добавить</button>
+        </div>
+        <!-- /.select -->
+        <div class="size">
+          <div class="size_item size_item_active">Ø 30 см</div>
+          <div class="size_item">Ø 40 см</div>
+          <div class="size_item">Ø 50 см</div>
+        </div>
+        <!-- /.size -->
+        <div class="price_holder">
+          <span class="price pr_inp"><input type="text" value='300' class="price_input" readonly style="border: none;">руб.</span>
+          <button class="btn_order">Заказать</button>
+        </div>
+        <!-- /.price_holder -->
+        <div class="ings"">
+          
+          <div class="ings_heading">
+            <h3 style="text-align: left; margin-bottom: 8px;">Ингредиенты:</h3>
+            <img src="./img/close.png" alt="close" class="close_btn">
+          </div>
+            <table>
+              <tbody>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Сыр</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Помидор</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Маслины</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Кукуруза</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Грибы</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Бекон</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+      </div>
+      
+      <div class="table_item" id="table_14">
+        <div class="image">
+          <img class="img" src="/img/tasty.jpg" alt="">
+        </div>
+        <div class="name_holder">
+          <span class="name">Вкусная</span>
+        </div>
+        <div class="descr">
+          <span class="description">Закрытая пицца на классическом тонком итальянском тесте с пепперони, беконом, ветчиной, томатами, яйцом, моцареллой и горчичным соусом </span>
+        </div>
+        <div class="select">
+          <label for="" style="font-size: 13px;">Ингредиенты:</label>
+          <button type="button" class="btn"><span style="color: goldenrod;">+</span> Добавить</button>
+        </div>
+        <!-- /.select -->
+        <div class="size">
+          <div class="size_item size_item_active">Ø 30 см</div>
+          <div class="size_item">Ø 40 см</div>
+          <div class="size_item">Ø 50 см</div>
+        </div>
+        <!-- /.size -->
+        <div class="price_holder">
+          <span class="price pr_inp"><input type="text" value='300' class="price_input" readonly style="border: none;">руб.</span>
+          <button class="btn_order">Заказать</button>
+        </div>
+        <!-- /.price_holder -->
+        <div class="ings"">
+          
+          <div class="ings_heading">
+            <h3 style="text-align: left; margin-bottom: 8px;">Ингредиенты:</h3>
+            <img src="./img/close.png" alt="close" class="close_btn">
+          </div>
+            <table>
+              <tbody>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Сыр</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Помидор</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Маслины</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Кукуруза</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Грибы</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Бекон</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+      </div>
+      
+      <div class="table_item" id="table_15">
+        <div class="image">
+          <img class="img" src="/img/to_layers.jpg" alt="to_layers">
+        </div>
+        <div class="name_holder">
+          <span class="name">Двухслойная</span>
+        </div>
+        <div class="descr">
+          <span class="description">Двухслойная пицца с ветчиной, кусочками курицы, беконом, маринованными огурцами, красным луком, моцареллой, томатами, укропом, томатно-горчичным соусом</span>
+        </div>
+        <div class="select">
+          <label for="" style="font-size: 13px;">Ингредиенты:</label>
+          <button type="button" class="btn"><span style="color: goldenrod;">+</span> Добавить</button>
+        </div>
+        <!-- /.select -->
+        <div class="size">
+          <div class="size_item size_item_active">Ø 30 см</div>
+          <div class="size_item">Ø 40 см</div>
+          <div class="size_item">Ø 50 см</div>
+        </div>
+        <!-- /.size -->
+        <div class="price_holder">
+          <span class="price pr_inp"><input type="text" value='300' class="price_input" readonly style="border: none;">руб.</span>
+          <button class="btn_order">Заказать</button>
+        </div>
+        <!-- /.price_holder -->
+        <div class="ings"">
+          
+          <div class="ings_heading">
+            <h3 style="text-align: left; margin-bottom: 8px;">Ингредиенты:</h3>
+            <img src="./img/close.png" alt="close" class="close_btn">
+          </div>
+            <table>
+              <tbody>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Сыр</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Помидор</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Маслины</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Кукуруза</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Грибы</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Бекон</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+      </div>
+      
+      <div class="table_item" id="table_16">
+        <div class="image">
+          <img class="img" src="/img/vegan.jpg" alt="vegan">
+        </div>
+        <div class="name_holder">
+          <span class="name">Веганская</span>
+        </div>
+        <div class="descr">
+          <span class="description">Зелёная пицца с брокколи, цветной капустой, болгарским перецем, шампиньонами, вялеными томатами, веганским сыром, рукколой, с томатным и бамбаджи соусом</span>
+        </div>
+        <div class="select">
+          <label for="" style="font-size: 13px;">Ингредиенты:</label>
+          <button type="button" class="btn"><span style="color: goldenrod;">+</span> Добавить</button>
+        </div>
+        <!-- /.select -->
+        <div class="size">
+          <div class="size_item size_item_active">Ø 30 см</div>
+          <div class="size_item">Ø 40 см</div>
+          <div class="size_item">Ø 50 см</div>
+        </div>
+        <!-- /.size -->
+        <div class="price_holder">
+          <span class="price pr_inp"><input type="text" value='300' class="price_input" readonly style="border: none;">руб.</span>
+          <button class="btn_order">Заказать</button>
+        </div>
+        <!-- /.price_holder -->
+        <div class="ings"">
+          
+          <div class="ings_heading">
+            <h3 style="text-align: left; margin-bottom: 8px;">Ингредиенты:</h3>
+            <img src="./img/close.png" alt="close" class="close_btn">
+          </div>
+            <table>
+              <tbody>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Сыр</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Помидор</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Маслины</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Кукуруза</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Грибы</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Бекон</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+      </div>
+      
+      <div class="table_item" id="table_17">
+        <div class="image">
+          <img class="img" src="/img/village_new.jpg" alt="village_new">
+        </div>
+        <div class="name_holder">
+          <span class="name">Деревенская New</span>
+        </div>
+        <div class="descr">
+          <span class="description">Нежная пицца на классическом тонком итальянском тесте со сметанным соусом с маринованными огурчиками и орегано, свининой, беконом, картофелем, моцар    </div>
+        <div class="select">
+          <label for="" style="font-size: 13px;">Ингредиенты:</label>
+          <button type="button" class="btn"><span style="color: goldenrod;">+</span> Добавить</button>
+        </div>
+        <!-- /.select -->
+        <div class="size">
+          <div class="size_item size_item_active">Ø 30 см</div>
+          <div class="size_item">Ø 40 см</div>
+          <div class="size_item">Ø 50 см</div>
+        </div>
+        <!-- /.size -->
+        <div class="price_holder">
+          <span class="price pr_inp"><input type="text" value='300' class="price_input" readonly style="border: none;">руб.</span>
+          <button class="btn_order">Заказать</button>
+        </div>
+        <!-- /.price_holder -->
+        <div class="ings"">
+          
+          <div class="ings_heading">
+            <h3 style="text-align: left; margin-bottom: 8px;">Ингредиенты:</h3>
+            <img src="./img/close.png" alt="close" class="close_btn">
+          </div>
+            <table>
+              <tbody>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Сыр</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Помидор</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Маслины</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Кукуруза</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Грибы</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Бекон</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+          
+      <div class="table_item" id="table_18">
+        <div class="image">
+          <img class="img" src="/img/yin_yang.jpg" alt="yin_yang">
+        </div>
+        <div class="name_holder">
+          <span class="name">Инь Янь</span>
+        </div>
+        <div class="descr">
+          <span class="description">Пицца из двух половинок Жульетта и Чизбургер </span>
+        </div>
+        <div class="select">
+          <label for="" style="font-size: 13px;">Ингредиенты:</label>
+          <button type="button" class="btn"><span style="color: goldenrod;">+</span> Добавить</button>
+        </div>
+        <!-- /.select -->
+        <div class="size">
+          <div class="size_item size_item_active">Ø 30 см</div>
+          <div class="size_item">Ø 40 см</div>
+          <div class="size_item">Ø 50 см</div>
+        </div>
+        <!-- /.size -->
+        <div class="price_holder">
+          <span class="price pr_inp"><input type="text" value='300' class="price_input" readonly style="border: none;">руб.</span>
+          <button class="btn_order">Заказать</button>
+        </div>
+        <!-- /.price_holder -->
+        <div class="ings"">
+          
+          <div class="ings_heading">
+            <h3 style="text-align: left; margin-bottom: 8px;">Ингредиенты:</h3>
+            <img src="./img/close.png" alt="close" class="close_btn">
+          </div>
+            <table>
+              <tbody>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Сыр</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Помидор</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Маслины</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Кукуруза</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Грибы</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+                <tr class="notforfree">
+                  <td class="tpngTd1">Бекон</td>
+                  <td class="tpngTd2">35р</td>
+                  <td class="tpngTd3">
+                    <img class="ings_btn minus" src="./img/minus.png"/>
+                    <input type="text" value='0' class="input" readonly style="border: none;">
+                    <img class="ings_btn plus" src="./img/plus.png"/>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+      </div>
+        
+      </div>
+
+  </div>
+
+
+  <div class="floor">
+    <h1><a href="tel: +79785068725" class="num" style="color: #fff;">+7 (978) 506-87-25</a></h1>
+  </div>
+  <script src="/js/app.js"></script>
+</body>
+</html>
